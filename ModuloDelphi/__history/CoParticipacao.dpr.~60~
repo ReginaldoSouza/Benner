@@ -1,0 +1,40 @@
+library CoParticipacao;
+
+uses
+  System.SysUtils,
+  System.Classes;
+
+{$R *.res}
+
+function Calcular(Exame : String ; Valor: Double) : Currency ; export ; stdcall;
+Begin
+
+if(Exame = '') then
+  begin
+    //Result :=  (Valor *0.30) ;
+  end
+Else
+ if (Exame = 'SANGUE') then
+  Begin
+     Result :=   (Valor *0.20) ;
+  End;
+
+if(Exame = 'URINA') then
+  Begin
+    //  Result :=  (Valor *0.50) ;
+  end;
+
+  if(Exame = 'CARDIACO') then
+   Begin
+   // Result :=  (Valor *2) ;
+  End;
+
+END;
+
+
+
+exports
+Calcular;
+
+begin
+end.

@@ -1,0 +1,7 @@
+Nome: Reginaldo Souza
+DataNascimento: 13/12/1975 00:00:00
+Idade: 46
+CPF: 999,999,999-99
+Valor: 1.001,00
+Data realização: 05/02/2022 00:00:00
+Exame:  SANGUE
